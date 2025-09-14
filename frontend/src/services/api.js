@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 // Base URL for your backend API
-const BASE_URL = 'http://localhost:3001/api'; // Backend running on port 3001
+const BASE_URL = 'http://localhost:5000/api'; // Backend running on port 5000
 
 export const api = axios.create({
   baseURL: BASE_URL,
